@@ -31,7 +31,7 @@ namespace SnakeandLaddergame
                             playerPosition = playerPosition + die;
                             break;
                         case 2:             //snake at 2,4,6
-                            playerPosition = playerPosition + die;
+                            playerPosition = playerPosition - die;
                             break;
                         case 3:
                             playerPosition = playerPosition + die;
